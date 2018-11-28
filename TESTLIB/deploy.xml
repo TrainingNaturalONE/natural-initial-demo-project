@@ -67,7 +67,7 @@
     <property name="natural.ant.deploy.upload" value="YES" />
     <property name="natural.ant.repository.type" value="SVN" />
     <property name="natural.ant.server.port" value="2700" />
-    <property name="natural.ant.project.name" value="TESTPROG" />
+    <property name="natural.ant.project.name" value="TESTLIB" />
     <property name="natural.ant.server.secured.environment" value="NO" />
     <property name="natural.ant.project.rootdir" value=".." />
     <property name="natural.ant.deploy.stow" value="NO" />
@@ -77,15 +77,15 @@
     <property name="natural.ant.server.hostname" value="localhost" />
     <property name="natural.ant.mapping.string" value="TESTLIB=TESTLIB;" />
     <property name="natural.ant.failonerror" value="NO" />
-    <property name="natural.ant.project.steplibs" value="0;" />
+    <property name="natural.ant.project.steplibs" value="4;SYSEXDDM;RDCRUISE;CRUISE16;SYSEXT;" />
     <property name="natural.ant.deploy.catalog.retries" value="1" />
-    <property name="natural.ant.repository.module" value="TESTPROG" />
+    <property name="natural.ant.repository.module" value="TESTLIB" />
     <property name="natural.ant.deploy.catalog" value="YES" />
     <property name="natural.ant.library.steplibs" value="" />
     <property name="natural.ant.server.environment" value="localhost-2700" />
     <property name="natural.ant.server.password" value="" />
     <property name="natural.ant.server.username" value="TRAINING" />
-    <property name="natural.ant.project.steplib.nsv" value="SYSTEM" />
+    <property name="natural.ant.project.steplib.nsv" value="" />
     <!-- ### ANT_DEPLOY_PROPERTIES_END ###   -->
   </target>
     
