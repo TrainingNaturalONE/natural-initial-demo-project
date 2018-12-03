@@ -1,0 +1,315 @@
+<UnitTestHistoryRoot id="1">
+  <children id="2">
+    <FileBasedUnitTestHistoryItem id="3">
+      <testName>SUBPRO.nattst</testName>
+      <state id="4" status="FAILED">
+        <errors id="5">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="6">
+            <message>Exception: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</message>
+            <exception class="com.softwareag.entirex.aci.BrokerException" id="7">
+              <detailMessage>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</detailMessage>
+              <stackTrace id="8">
+                <trace id="9">com.softwareag.entirex.aci.RPCController.checkRPCErrors(RPCController.java:450)</trace>
+                <trace id="10">com.softwareag.entirex.aci.RPCService.setReceiveBuffer(RPCService.java:1598)</trace>
+                <trace id="11">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1673)</trace>
+                <trace id="12">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1408)</trace>
+                <trace id="13">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:301)</trace>
+                <trace id="14">com.softwareag.entirex.dynamicrpc.DynamicProgram.call(DynamicProgram.java:142)</trace>
+                <trace id="15">com.softwareag.entirex.dynamicrpc.DynamicLibrary.call(DynamicLibrary.java:172)</trace>
+                <trace id="16">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:307)</trace>
+                <trace id="17">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:349)</trace>
+                <trace id="18">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.performCall(Unknown Source)</trace>
+                <trace id="19">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="20">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="21">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="22">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="23">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="24">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="25">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="26">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="27">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="28">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="29">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="30">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="31">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="32">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="33">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="34">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="35">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="36">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="37">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="38">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="39">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="40">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="41">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="42">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="43">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="44">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="45">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="46">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="47">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="48">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="49">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="50">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="51">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="52">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="53">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="54">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="55">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="56">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="57">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="58">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" id="59" resolves-to="java.util.Collections$UnmodifiableList">
+                <c class="list" id="60"/>
+                <list reference="60"/>
+              </suppressedExceptions>
+              <errorClass>1014</errorClass>
+              <errorCode>82</errorCode>
+              <errorText>Error 1014 0082: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorText>
+              <errorCodeString>0082</errorCodeString>
+              <errorClassString>1014</errorClassString>
+              <errorDetail>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorDetail>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="61">2018-12-03 21:14:41.709 UTC</startTimeStamp>
+      <endTimeStamp id="62">2018-12-03 21:14:44.298 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+    <FileBasedUnitTestHistoryItem id="63">
+      <testName>SUBPRO2.nattst</testName>
+      <state id="64" status="FAILED">
+        <errors id="65">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="66">
+            <message>Exception: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</message>
+            <exception class="com.softwareag.entirex.aci.BrokerException" id="67">
+              <detailMessage>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</detailMessage>
+              <stackTrace id="68">
+                <trace id="69">com.softwareag.entirex.aci.RPCController.checkRPCErrors(RPCController.java:450)</trace>
+                <trace id="70">com.softwareag.entirex.aci.RPCService.setReceiveBuffer(RPCService.java:1598)</trace>
+                <trace id="71">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1673)</trace>
+                <trace id="72">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1408)</trace>
+                <trace id="73">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:301)</trace>
+                <trace id="74">com.softwareag.entirex.dynamicrpc.DynamicProgram.call(DynamicProgram.java:142)</trace>
+                <trace id="75">com.softwareag.entirex.dynamicrpc.DynamicLibrary.call(DynamicLibrary.java:172)</trace>
+                <trace id="76">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:307)</trace>
+                <trace id="77">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:349)</trace>
+                <trace id="78">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.performCall(Unknown Source)</trace>
+                <trace id="79">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="80">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="81">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="82">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="83">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="84">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="85">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="86">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="87">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="88">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="89">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="90">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="91">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="92">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="93">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="94">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="95">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="96">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="97">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="98">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="99">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="100">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="101">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="102">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="103">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="104">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="105">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="106">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="107">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="108">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="109">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="110">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="111">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="112">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="113">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="114">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="115">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="116">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="117">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="118">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="59"/>
+              <errorClass>1014</errorClass>
+              <errorCode>82</errorCode>
+              <errorText>Error 1014 0082: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorText>
+              <errorCodeString>0082</errorCodeString>
+              <errorClassString>1014</errorClassString>
+              <errorDetail>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorDetail>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="119">2018-12-03 21:14:44.298 UTC</startTimeStamp>
+      <endTimeStamp id="120">2018-12-03 21:14:44.361 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO2.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+    <FileBasedUnitTestHistoryItem id="121">
+      <testName>SUBPRO3.nattst</testName>
+      <state id="122" status="FAILED">
+        <errors id="123">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="124">
+            <message>Exception: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</message>
+            <exception class="com.softwareag.entirex.aci.BrokerException" id="125">
+              <detailMessage>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</detailMessage>
+              <stackTrace id="126">
+                <trace id="127">com.softwareag.entirex.aci.RPCController.checkRPCErrors(RPCController.java:450)</trace>
+                <trace id="128">com.softwareag.entirex.aci.RPCService.setReceiveBuffer(RPCService.java:1598)</trace>
+                <trace id="129">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1673)</trace>
+                <trace id="130">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1408)</trace>
+                <trace id="131">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:301)</trace>
+                <trace id="132">com.softwareag.entirex.dynamicrpc.DynamicProgram.call(DynamicProgram.java:142)</trace>
+                <trace id="133">com.softwareag.entirex.dynamicrpc.DynamicLibrary.call(DynamicLibrary.java:172)</trace>
+                <trace id="134">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:307)</trace>
+                <trace id="135">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:349)</trace>
+                <trace id="136">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.performCall(Unknown Source)</trace>
+                <trace id="137">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="138">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="139">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="140">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="141">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="142">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="143">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="144">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="145">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="146">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="147">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="148">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="149">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="150">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="151">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="152">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="153">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="154">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="155">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="156">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="157">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="158">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="159">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="160">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="161">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="162">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="163">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="164">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="165">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="166">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="167">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="168">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="169">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="170">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="171">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="172">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="173">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="174">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="175">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="176">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="59"/>
+              <errorClass>1014</errorClass>
+              <errorCode>82</errorCode>
+              <errorText>Error 1014 0082: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorText>
+              <errorCodeString>0082</errorCodeString>
+              <errorClassString>1014</errorClassString>
+              <errorDetail>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorDetail>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="177">2018-12-03 21:14:44.361 UTC</startTimeStamp>
+      <endTimeStamp id="178">2018-12-03 21:14:44.376 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO3.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+    <FileBasedUnitTestHistoryItem id="179">
+      <testName>SUBPRO4.nattst</testName>
+      <state id="180" status="FAILED">
+        <errors id="181">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="182">
+            <message>Exception: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</message>
+            <exception class="com.softwareag.entirex.aci.BrokerException" id="183">
+              <detailMessage>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</detailMessage>
+              <stackTrace id="184">
+                <trace id="185">com.softwareag.entirex.aci.RPCController.checkRPCErrors(RPCController.java:450)</trace>
+                <trace id="186">com.softwareag.entirex.aci.RPCService.setReceiveBuffer(RPCService.java:1598)</trace>
+                <trace id="187">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1673)</trace>
+                <trace id="188">com.softwareag.entirex.aci.RPCService.callServer(RPCService.java:1408)</trace>
+                <trace id="189">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:301)</trace>
+                <trace id="190">com.softwareag.entirex.dynamicrpc.DynamicProgram.call(DynamicProgram.java:142)</trace>
+                <trace id="191">com.softwareag.entirex.dynamicrpc.DynamicLibrary.call(DynamicLibrary.java:172)</trace>
+                <trace id="192">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:307)</trace>
+                <trace id="193">com.softwareag.entirex.dynamicrpc.DynamicRPCService.call(DynamicRPCService.java:349)</trace>
+                <trace id="194">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.performCall(Unknown Source)</trace>
+                <trace id="195">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="196">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="197">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="198">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="199">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="200">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="201">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="202">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="203">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="204">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="205">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="206">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="207">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="208">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="209">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="210">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="211">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="212">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="213">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="214">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="215">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="216">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="217">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="218">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="219">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="220">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="221">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="222">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="223">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="224">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="225">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="226">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="227">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="228">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="229">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="230">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="231">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="232">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="233">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="234">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="59"/>
+              <errorClass>1014</errorClass>
+              <errorCode>82</errorCode>
+              <errorText>Error 1014 0082: Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorText>
+              <errorCodeString>0082</errorCodeString>
+              <errorClassString>1014</errorClassString>
+              <errorDetail>Natural RPC Server returns: SUBPRO   9999 NAT0082 Invalid command, or Subprogram SUBPRO does not exist in library., NE=01,SUBPRO  999901O</errorDetail>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="235">2018-12-03 21:14:44.376 UTC</startTimeStamp>
+      <endTimeStamp id="236">2018-12-03 21:14:44.408 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO4.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+  </children>
+</UnitTestHistoryRoot>

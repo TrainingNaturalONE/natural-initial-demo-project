@@ -6,13 +6,6 @@
 /**
 /** :author Training 
 /* TODO Enter your code here
-define data local
-1 val1     (n5)
-1 val2     (n5)
-1 result   (n10)
-1 operator (a1)
-end-define
 write 'hello my world '
 write 'the second task on friday'
-CALLNAT "SUBPRO" val1 val2 result operator
 END

@@ -1,0 +1,343 @@
+<UnitTestHistoryRoot id="1">
+  <children id="2">
+    <FileBasedUnitTestHistoryItem id="3">
+      <testName>SUBPRO.nattst</testName>
+      <state id="4" status="FAILED">
+        <errors id="5">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="6">
+            <message>Exception: Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+            <exception class="org.eclipse.core.internal.resources.ResourceException" id="7">
+              <detailMessage>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</detailMessage>
+              <stackTrace id="8">
+                <trace id="9">org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)</trace>
+                <trace id="10">org.eclipse.core.internal.resources.File.getContents(File.java:277)</trace>
+                <trace id="11">org.eclipse.core.internal.resources.File.getContents(File.java:268)</trace>
+                <trace id="12">com.softwareag.naturalone.gen.testing.eclipse.external.exx.dynamicmarshall.IDLUtilities.parseNaturalSource(Unknown Source)</trace>
+                <trace id="13">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.parseNaturalSource(Unknown Source)</trace>
+                <trace id="14">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createIDLRoot(Unknown Source)</trace>
+                <trace id="15">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createRootStructure(Unknown Source)</trace>
+                <trace id="16">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="17">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="18">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="19">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="20">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="21">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="22">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="23">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="24">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="25">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="26">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="27">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="28">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="29">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="30">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="31">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="32">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="33">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="34">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="35">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="36">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="37">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="38">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="39">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="40">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="41">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="42">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="43">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="44">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="45">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="46">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="47">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="48">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="49">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="50">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="51">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="52">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="53">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="54">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="55">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" id="56" resolves-to="java.util.Collections$UnmodifiableList">
+                <c class="list" id="57"/>
+                <list reference="57"/>
+              </suppressedExceptions>
+              <status class="org.eclipse.core.internal.resources.ResourceStatus" id="58">
+                <severity>4</severity>
+                <pluginId>org.eclipse.core.resources</pluginId>
+                <code>274</code>
+                <message>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+                <path class="org.eclipse.core.runtime.Path" id="59">
+                  <segments id="60">
+                    <string>TESTLIB</string>
+                    <string>Natural-Libraries</string>
+                    <string>TESTLIB</string>
+                    <string>SRC</string>
+                    <string>SUBPRO.NSN</string>
+                  </segments>
+                  <flags>275342857</flags>
+                </path>
+              </status>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="61">2018-12-03 21:34:24.745 UTC</startTimeStamp>
+      <endTimeStamp id="62">2018-12-03 21:34:24.808 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+    <FileBasedUnitTestHistoryItem id="63">
+      <testName>SUBPRO2.nattst</testName>
+      <state id="64" status="FAILED">
+        <errors id="65">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="66">
+            <message>Exception: Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+            <exception class="org.eclipse.core.internal.resources.ResourceException" id="67">
+              <detailMessage>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</detailMessage>
+              <stackTrace id="68">
+                <trace id="69">org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)</trace>
+                <trace id="70">org.eclipse.core.internal.resources.File.getContents(File.java:277)</trace>
+                <trace id="71">org.eclipse.core.internal.resources.File.getContents(File.java:268)</trace>
+                <trace id="72">com.softwareag.naturalone.gen.testing.eclipse.external.exx.dynamicmarshall.IDLUtilities.parseNaturalSource(Unknown Source)</trace>
+                <trace id="73">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.parseNaturalSource(Unknown Source)</trace>
+                <trace id="74">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createIDLRoot(Unknown Source)</trace>
+                <trace id="75">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createRootStructure(Unknown Source)</trace>
+                <trace id="76">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="77">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="78">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="79">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="80">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="81">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="82">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="83">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="84">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="85">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="86">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="87">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="88">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="89">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="90">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="91">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="92">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="93">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="94">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="95">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="96">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="97">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="98">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="99">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="100">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="101">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="102">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="103">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="104">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="105">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="106">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="107">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="108">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="109">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="110">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="111">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="112">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="113">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="114">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="115">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="56"/>
+              <status class="org.eclipse.core.internal.resources.ResourceStatus" id="116">
+                <severity>4</severity>
+                <pluginId>org.eclipse.core.resources</pluginId>
+                <code>274</code>
+                <message>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+                <path class="org.eclipse.core.runtime.Path" id="117">
+                  <segments id="118">
+                    <string>TESTLIB</string>
+                    <string>Natural-Libraries</string>
+                    <string>TESTLIB</string>
+                    <string>SRC</string>
+                    <string>SUBPRO.NSN</string>
+                  </segments>
+                  <flags>275342857</flags>
+                </path>
+              </status>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="119">2018-12-03 21:34:24.808 UTC</startTimeStamp>
+      <endTimeStamp id="120">2018-12-03 21:34:24.823 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO2.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+    <FileBasedUnitTestHistoryItem id="121">
+      <testName>SUBPRO3.nattst</testName>
+      <state id="122" status="FAILED">
+        <errors id="123">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="124">
+            <message>Exception: Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+            <exception class="org.eclipse.core.internal.resources.ResourceException" id="125">
+              <detailMessage>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</detailMessage>
+              <stackTrace id="126">
+                <trace id="127">org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)</trace>
+                <trace id="128">org.eclipse.core.internal.resources.File.getContents(File.java:277)</trace>
+                <trace id="129">org.eclipse.core.internal.resources.File.getContents(File.java:268)</trace>
+                <trace id="130">com.softwareag.naturalone.gen.testing.eclipse.external.exx.dynamicmarshall.IDLUtilities.parseNaturalSource(Unknown Source)</trace>
+                <trace id="131">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.parseNaturalSource(Unknown Source)</trace>
+                <trace id="132">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createIDLRoot(Unknown Source)</trace>
+                <trace id="133">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createRootStructure(Unknown Source)</trace>
+                <trace id="134">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="135">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="136">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="137">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="138">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="139">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="140">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="141">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="142">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="143">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="144">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="145">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="146">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="147">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="148">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="149">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="150">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="151">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="152">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="153">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="154">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="155">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="156">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="157">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="158">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="159">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="160">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="161">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="162">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="163">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="164">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="165">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="166">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="167">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="168">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="169">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="170">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="171">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="172">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="173">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="56"/>
+              <status class="org.eclipse.core.internal.resources.ResourceStatus" id="174">
+                <severity>4</severity>
+                <pluginId>org.eclipse.core.resources</pluginId>
+                <code>274</code>
+                <message>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+                <path class="org.eclipse.core.runtime.Path" id="175">
+                  <segments id="176">
+                    <string>TESTLIB</string>
+                    <string>Natural-Libraries</string>
+                    <string>TESTLIB</string>
+                    <string>SRC</string>
+                    <string>SUBPRO.NSN</string>
+                  </segments>
+                  <flags>275342857</flags>
+                </path>
+              </status>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="177">2018-12-03 21:34:24.823 UTC</startTimeStamp>
+      <endTimeStamp id="178">2018-12-03 21:34:24.823 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO3.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+    <FileBasedUnitTestHistoryItem id="179">
+      <testName>SUBPRO4.nattst</testName>
+      <state id="180" status="FAILED">
+        <errors id="181">
+          <com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError id="182">
+            <message>Exception: Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+            <exception class="org.eclipse.core.internal.resources.ResourceException" id="183">
+              <detailMessage>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</detailMessage>
+              <stackTrace id="184">
+                <trace id="185">org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)</trace>
+                <trace id="186">org.eclipse.core.internal.resources.File.getContents(File.java:277)</trace>
+                <trace id="187">org.eclipse.core.internal.resources.File.getContents(File.java:268)</trace>
+                <trace id="188">com.softwareag.naturalone.gen.testing.eclipse.external.exx.dynamicmarshall.IDLUtilities.parseNaturalSource(Unknown Source)</trace>
+                <trace id="189">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.parseNaturalSource(Unknown Source)</trace>
+                <trace id="190">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createIDLRoot(Unknown Source)</trace>
+                <trace id="191">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.createRootStructure(Unknown Source)</trace>
+                <trace id="192">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.NaturalTest.doRun(Unknown Source)</trace>
+                <trace id="193">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="194">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.natural.model.BasicTestSuite.doRun(Unknown Source)</trace>
+                <trace id="195">com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.AbstractTest.run(Unknown Source)</trace>
+                <trace id="196">com.softwareag.naturalone.gen.nbs.eclipse.ant.TestSuiteTask.execute(Unknown Source)</trace>
+                <trace id="197">org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)</trace>
+                <trace id="198">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="199">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="200">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="201">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="202">org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)</trace>
+                <trace id="203">org.apache.tools.ant.Task.perform(Task.java:348)</trace>
+                <trace id="204">org.apache.tools.ant.Target.execute(Target.java:435)</trace>
+                <trace id="205">org.apache.tools.ant.Target.performTasks(Target.java:456)</trace>
+                <trace id="206">org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)</trace>
+                <trace id="207">org.apache.tools.ant.Project.executeTarget(Project.java:1376)</trace>
+                <trace id="208">org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)</trace>
+                <trace id="209">org.eclipse.ant.internal.core.ant.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)</trace>
+                <trace id="210">org.apache.tools.ant.Project.executeTargets(Project.java:1260)</trace>
+                <trace id="211">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:705)</trace>
+                <trace id="212">org.eclipse.ant.internal.core.ant.InternalAntRunner.run(InternalAntRunner.java:568)</trace>
+                <trace id="213">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="214">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="215">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="216">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="217">org.eclipse.ant.core.AntRunner.run(AntRunner.java:511)</trace>
+                <trace id="218">org.eclipse.ant.core.AntRunner.start(AntRunner.java:608)</trace>
+                <trace id="219">org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</trace>
+                <trace id="220">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</trace>
+                <trace id="221">org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</trace>
+                <trace id="222">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)</trace>
+                <trace id="223">org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)</trace>
+                <trace id="224">sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                <trace id="225">sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                <trace id="226">sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                <trace id="227">java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                <trace id="228">org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)</trace>
+                <trace id="229">org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)</trace>
+                <trace id="230">org.eclipse.equinox.launcher.Main.run(Main.java:1519)</trace>
+                <trace id="231">org.eclipse.equinox.launcher.Main.main(Main.java:1492)</trace>
+              </stackTrace>
+              <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="56"/>
+              <status class="org.eclipse.core.internal.resources.ResourceStatus" id="232">
+                <severity>4</severity>
+                <pluginId>org.eclipse.core.resources</pluginId>
+                <code>274</code>
+                <message>Resource is out of sync with the file system: &apos;/TESTLIB/Natural-Libraries/TESTLIB/SRC/SUBPRO.NSN&apos;.</message>
+                <path class="org.eclipse.core.runtime.Path" id="233">
+                  <segments id="234">
+                    <string>TESTLIB</string>
+                    <string>Natural-Libraries</string>
+                    <string>TESTLIB</string>
+                    <string>SRC</string>
+                    <string>SUBPRO.NSN</string>
+                  </segments>
+                  <flags>275342857</flags>
+                </path>
+              </status>
+            </exception>
+          </com.softwareag.naturalone.gen.testing.eclipse.external.ui.editors.unittester.framework.ValidationError>
+        </errors>
+      </state>
+      <startTimeStamp id="235">2018-12-03 21:34:24.823 UTC</startTimeStamp>
+      <endTimeStamp id="236">2018-12-03 21:34:24.839 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN30684$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\TESTLIB\Testing-Suites\SUBPRO4.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+  </children>
+</UnitTestHistoryRoot>
