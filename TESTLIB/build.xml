@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="default" name="Natural Unit Tests">
+  <target name="init">
+    <property name="broker.environmentID" value="local Natural runtime" />
+    <property name="test.dir" value="C:/Training/initial_demo_git/natural-initial-demo-project/TESTLIB" />
+    <property name="NaturalTestingJunitLogger.file" value="TESTLIB/log.xml" />
+  </target>
+  <target depends="init" name="default">
+    <!-- Change logtests to "true" if you want test history to be saved -->
+    <testsuite failureProperty="is.unit.test.failure" haltOnFailure="false" logtests="true" name="tests" setProjectSteplibs="true">
+      <connection EnvironmentName="${broker.environmentID}" />
+      <!-- Run all the available unit tests from a folder -->
+      <fileset dir="${test.dir}">
+        <include name="**/*.nattst" />
+        <include name="**/*.bsrvtst" />
+        <include name="**/*.exttst" />
+        <include name="/**/*.seqtst" />
+      </fileset>
+      <!-- Validators (See Eclipse online help <!!!TOPIC!!!> for further details)
+	   BooleanValidator
+	   ByteValidator
+	   DateValidator
+	   DecimalValidator
+	   IntegerValidator
+	   RegexValidator
+	   StringValidator
+	   TimeValidator
+	 -->
+      <!-- Sample subprogram -->
+      <!-- This sample assumes you have a DEMOTEST library containing a subprogram called CALC -->
+      <!--
+			<subprogram project="TESTLIB" library="DEMOTEST" name="CALC">
+				<input fieldName="INPUT-DATA.#FUNCTION" value="Add" />
+				<input fieldName="INPUT-DATA.#FIRST-NUM" value="2" />
+				<input fieldName="INPUT-DATA.#SECOND-NUM" value="1" />
+				<validate fieldName="OUTPUT-DATA.#RESULT" type="IntegerValidator" value="3" />
+			</subprogram>
+-->
+      <!-- Sample business service -->
+      <!-- This sample assumes you have a domain called DEMO containing a Calculator service -->
+      <!--
+			<businessService project="TESTLIB" domain="DEMO" name="Calculator" version="1.1.1" method="Add">
+				<input fieldName="INPUT-DATA.#FUNCTION" value="Add" />
+				<input fieldName="INPUT-DATA.#FIRST-NUM" value="2" />
+				<input fieldName="INPUT-DATA.#SECOND-NUM" value="1" />
+				<validate fieldName="OUTPUT-DATA.#RESULT" type="IntegerValidator" value="3" />
+			</businessService>
+		-->
+    </testsuite>
+    <!-- Let test fail if there was one failure during testing -->
+    <fail if="is.unit.test.failure" status="1" />
+  </target>
+</project>
+
